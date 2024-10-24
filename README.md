@@ -13,6 +13,8 @@ Windows 鎖定畫面不提供動態桌布，但螢幕保護程式可以，所以
 
 進入後跳出[螢幕保護裝置設定]，選擇 Wallpaper Engine 為螢幕保護程式。
 
+> 每次開啟時都會跳出此視窗，之後直接忽略。
+
 ![](https://github.com/shao0324/runScrSaver/blob/main/img/setting%202.png)
 
 ### 步驟 3
