@@ -15,11 +15,11 @@ class Program
 
     static void Main(string[] args)
     {
-        // 鎖定螢幕
-        LockWorkStation();
-        
         // 執行螢幕保護程式
         SendMessage(GetConsoleWindow(), WM_SYSCOMMAND, (IntPtr)SC_SCREENSAVE, IntPtr.Zero);
+
+         // 鎖定螢幕
+        // LockWorkStation();
     }
 
     [DllImport("kernel32.dll")]
